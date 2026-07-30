@@ -27,13 +27,13 @@ muted = colors.HexColor('#5d5147')
 soft = colors.HexColor('#f7f2e9')
 
 styles = getSampleStyleSheet()
-styles.add(ParagraphStyle(name='TitleMS', fontName='Helvetica-Bold', fontSize=21, leading=20, textColor=ink, spaceAfter=3))
-styles.add(ParagraphStyle(name='HeadMS', fontName='Helvetica-Bold', fontSize=13.2, leading=14.2, textColor=ink, spaceAfter=4))
-styles.add(ParagraphStyle(name='Tag', fontName='Helvetica-Bold', fontSize=7.8, leading=9, textColor=gold, uppercase=True, spaceAfter=4))
-styles.add(ParagraphStyle(name='BodyMS', fontName='Helvetica', fontSize=8.6, leading=10.1, textColor=ink))
-styles.add(ParagraphStyle(name='SmallMS', fontName='Helvetica', fontSize=7.5, leading=8.6, textColor=muted))
-styles.add(ParagraphStyle(name='Phone', fontName='Helvetica-Bold', fontSize=19, leading=20, textColor=red))
-styles.add(ParagraphStyle(name='BoxHead', fontName='Helvetica-Bold', fontSize=8.6, leading=9.4, textColor=ink))
+styles.add(ParagraphStyle(name='TitleMS', fontName='Helvetica-Bold', fontSize=24, leading=23, textColor=ink, spaceAfter=3))
+styles.add(ParagraphStyle(name='HeadMS', fontName='Helvetica-Bold', fontSize=16, leading=17, textColor=ink, spaceAfter=6))
+styles.add(ParagraphStyle(name='Tag', fontName='Helvetica-Bold', fontSize=8.8, leading=10, textColor=gold, uppercase=True, spaceAfter=8))
+styles.add(ParagraphStyle(name='BodyMS', fontName='Helvetica', fontSize=9.5, leading=11.2, textColor=ink))
+styles.add(ParagraphStyle(name='SmallMS', fontName='Helvetica', fontSize=8.2, leading=9.7, textColor=muted))
+styles.add(ParagraphStyle(name='Phone', fontName='Helvetica-Bold', fontSize=25, leading=26, textColor=red))
+styles.add(ParagraphStyle(name='BoxHead', fontName='Helvetica-Bold', fontSize=9.6, leading=10.4, textColor=ink))
 
 def P(txt, style='BodyMS'):
     return Paragraph(txt, styles[style])
@@ -61,11 +61,11 @@ def draw_page(canvas, doc):
     canvas.restoreState()
 
 # panel content
-logo=Image(str(LOGO),width=.78*inch,height=.49*inch)
-photo=Image(str(PHOTO),width=3.15*inch,height=.83*inch)
-qr=Image(str(QR),width=.62*inch,height=.62*inch)
+logo=Image(str(LOGO),width=1.02*inch,height=.64*inch)
+photo=Image(str(PHOTO),width=3.15*inch,height=1.30*inch)
+qr=Image(str(QR),width=.80*inch,height=.80*inch)
 
-panel1=[Table([[logo,[P('Midwest Suppliers','TitleMS'),P('Meats & Seafood','BodyMS')]]],colWidths=[.85*inch,2.25*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),4)]),Spacer(1,5),photo,Spacer(1,5),box([P('<b>Restaurant-quality meats and seafood delivered to your door.</b>','BodyMS'),P('Home and business delivery across Rapid City, the Black Hills, Deadwood, and surrounding areas since 2020.','SmallMS')],border=red),Spacer(1,4),P(PHONE,'Phone'),box([P('Free home delivery','BoxHead'),P('Stock the freezer without the grocery-store run.','SmallMS')],top=gold),box([P('Free chest freezer','BoxHead'),P('Ask about a <b>free chest freezer</b> with select orders.','SmallMS')],top=red),box([P('One-year guarantee','BoxHead'),P('Guaranteed for one full year from purchase for tenderness and quality. If dissatisfied, unused portions can be replaced.','SmallMS')])]
+panel1=[Table([[logo,[P('Midwest Suppliers','TitleMS'),P('Meats & Seafood','BodyMS')]]],colWidths=[1.10*inch,2.00*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),4)]),Spacer(1,16),photo,Spacer(1,16),box([P('<b>Restaurant-quality meats and seafood delivered to your door.</b>','BodyMS'),P('Home and business delivery across Rapid City, the Black Hills, Deadwood, and surrounding areas since 2020.','SmallMS')],border=red),Spacer(1,14),P(PHONE,'Phone'),Spacer(1,18),box([P('Free home delivery','BoxHead'),P('Stock the freezer without the grocery-store run.','SmallMS')],top=gold),Spacer(1,16),box([P('Free chest freezer','BoxHead'),P('Ask about a <b>free chest freezer</b> with select orders.','SmallMS')],top=red),Spacer(1,16),box([P('One-year guarantee','BoxHead'),P('Guaranteed for one full year from purchase for tenderness and quality. If dissatisfied, unused portions can be replaced.','SmallMS')])]
 
 beef=[('Filet Mignon','$149'),('NY Strip','$89'),('Ranch Sirloin','$89'),('Rib Eye','$99'),('Porterhouse','$119'),('Sirloin Burgers','$79')]
 pork=[('Center Cut Chops','$59'),('Porterhouse Chops','$69'),('Sirloin Roasts','$59'),('Bone-in Chops','$62'),('Italian Sausage','$57'),('Country Ribs','$55')]
