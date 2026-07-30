@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Midwest Suppliers One-Page Tri-Fold Menu</title>
+  <style>
+    :root{--ink:#17110d;--muted:#5d5147;--red:#b5122a;--gold:#b8891f;--line:#d8d0c5;--paper:#fffdf8;--soft:#f7f2e9}
+    *{box-sizing:border-box}body{margin:0;background:#ece8df;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.14}.toolbar{max-width:11in;margin:12px auto;padding:10px 12px;background:#fff;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:13px}.toolbar strong{color:var(--ink)}
+    .sheet{width:11in;height:8.5in;margin:12px auto;background:var(--paper);border:1px solid #cfc7bc;box-shadow:0 12px 30px rgba(0,0,0,.12);display:grid;grid-template-columns:1fr 1fr 1fr;position:relative;overflow:hidden}.sheet:before{content:"";position:absolute;inset:0 0 auto;height:5px;background:linear-gradient(90deg,var(--red),var(--gold));print-color-adjust:exact;-webkit-print-color-adjust:exact}.panel{padding:.24in .21in .17in;border-right:1px dashed #aaa;position:relative;min-width:0}.panel:last-child{border-right:0}.fold-label{position:absolute;top:.07in;right:.11in;color:#9a8f82;font-size:7.5px;text-transform:uppercase;letter-spacing:.08em}.logo{width:.88in;height:.54in;object-fit:cover;border:1px solid var(--line);display:block}.photo{width:100%;height:.85in;object-fit:cover;border:1px solid var(--line);filter:saturate(.88) contrast(1.03)}
+    h1,h2,h3,p{margin:0}h1{font-size:26px;line-height:.88;text-transform:uppercase;letter-spacing:.02em;margin-top:7px}h2{font-size:16px;text-transform:uppercase;letter-spacing:.03em;margin:0 0 5px}h3{font-size:10.6px;text-transform:uppercase;letter-spacing:.025em}.sub{font-size:10.8px;color:var(--muted);font-weight:700;margin-top:3px}.phone{display:block;margin-top:6px;color:var(--red);font-size:23px;font-weight:900;text-decoration:none}.tag{font-size:9px;text-transform:uppercase;letter-spacing:.12em;font-weight:900;color:var(--gold);margin-bottom:5px}.box{border:1px solid var(--line);background:#fff;padding:6px;margin-top:6px}.box.red{border-top:3px solid var(--red)}.box.gold{border-top:3px solid var(--gold)}.small{font-size:9.4px;color:var(--muted)}.body{font-size:10.2px}.call{border:2px solid var(--red);padding:7px;margin-top:7px;background:#fff}.call strong{font-size:13.6px}.cover-grid{display:grid;grid-template-columns:.9in 1fr;gap:9px;align-items:center}.quality-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}.quality-grid .box{margin-top:0;padding:5px}
+    ul{margin:4px 0 0 14px;padding:0}li{margin:1.8px 0}.case{border:1px solid var(--line);background:#fff;margin-bottom:5px}.case h3{display:flex;justify-content:space-between;gap:5px;background:var(--soft);padding:4.5px 5px;border-bottom:1px solid var(--line);font-size:10.5px}.case h3 span{color:var(--red);white-space:nowrap}.case ul{list-style:none;margin:0;padding:2px 5px 4px}.case li{display:flex;justify-content:space-between;gap:5px;border-bottom:1px dotted #cbc2b6;padding:2.1px 0;font-size:8.5px}.case li:last-child{border-bottom:0}.case b{white-space:nowrap}.cases-2{display:grid;grid-template-columns:1fr 1fr;gap:5px}.combo{border:2px solid var(--ink);background:#fff;padding:6px;margin-top:6px;display:flex;align-items:center;justify-content:space-between;gap:8px}.combo strong{font-size:25px;color:var(--red)}.qr{width:.64in;height:.64in;image-rendering:crisp-edges}.footer{position:absolute;left:.21in;right:.21in;bottom:.11in;border-top:1px solid var(--line);padding-top:4px;font-size:8.5px;color:var(--muted);display:flex;justify-content:space-between;gap:6px}
+    @page{size:letter landscape;margin:0}@media print{body{background:white}.toolbar{display:none}.sheet{margin:0;border:0;box-shadow:none}.photo{filter:grayscale(100%) contrast(1.06)}a{text-decoration:none;color:inherit}.sheet:before{height:4px}}
+  </style>
+</head>
+<body>
+  <div class="toolbar"><strong>One-page tri-fold:</strong> Print landscape, actual size / 100%, grayscale or economy mode. Fold into thirds along the dashed lines. Everything is on one letter-size page.</div>
+
+  <section class="sheet">
+    <article class="panel">
+      <span class="fold-label">Panel 1</span>
+      <div class="cover-grid"><img class="logo" src="assets/knife-logo.jpg" alt="Midwest Suppliers knife logo"><div><h1>Midwest Suppliers</h1><p class="sub">Meats & Seafood</p></div></div>
+      <img class="photo" src="assets/steak-seafood-plate.jpg" alt="Plated steak topped with seafood and sauce" style="margin-top:8px">
+      <div class="call"><strong>Restaurant-quality meats and seafood delivered to your door.</strong><p class="small" style="margin-top:4px">Home and business delivery across Rapid City, the Black Hills, Deadwood, and surrounding areas since 2020.</p></div>
+      <a class="phone" href="tel:16056759429">605-675-9429</a>
+      <div class="box gold"><h3>Free home delivery</h3><p class="small">Stock the freezer without the grocery-store run.</p></div>
+      <div class="box red"><h3>Free chest freezer</h3><p class="small">Ask about a <b>free chest freezer</b> with select orders.</p></div>
+      <div class="box"><h3>One-year guarantee</h3><p class="small">Guaranteed for one full year from purchase for tenderness and quality. If dissatisfied, Midwest Suppliers will replace any unused portion.</p></div>
+      <div class="footer"><span>Front/contact</span><span>Call 605-675-9429</span></div>
+    </article>
+
+    <article class="panel">
+      <span class="fold-label">Panel 2</span>
+      <p class="tag">Menu cases</p>
+      <div class="cases-2">
+        <div class="case"><h3>Big Beef <span>$624</span></h3><ul><li><span>Filet Mignon</span><b>$149</b></li><li><span>NY Strip</span><b>$89</b></li><li><span>Ranch Sirloin</span><b>$89</b></li><li><span>Rib Eye</span><b>$99</b></li><li><span>Porterhouse</span><b>$119</b></li><li><span>Sirloin Burgers</span><b>$79</b></li></ul></div>
+        <div class="case"><h3>Pork <span>$361</span></h3><ul><li><span>Center Cut Chops</span><b>$59</b></li><li><span>Porterhouse Chops</span><b>$69</b></li><li><span>Sirloin Roasts</span><b>$59</b></li><li><span>Bone-in Chops</span><b>$62</b></li><li><span>Italian Sausage</span><b>$57</b></li><li><span>Country Ribs</span><b>$55</b></li></ul></div>
+        <div class="case"><h3>Seafood <span>$449</span></h3><ul><li><span>Jumbo Peeled Shrimp</span><b>$59</b></li><li><span>Un-peeled Shrimp</span><b>$55</b></li><li><span>Mahi Mahi Filet</span><b>$84</b></li><li><span>Sockeye Salmon</span><b>$99</b></li><li><span>Red Snapper</span><b>$74</b></li><li><span>Sea Scallops</span><b>$78</b></li></ul></div>
+        <div class="case"><h3>Chicken <span>$361</span></h3><ul><li><span>Plain Breasts</span><b>$59</b></li><li><span>Lemon Pepper</span><b>$64</b></li><li><span>Italian Breasts</span><b>$64</b></li><li><span>Mild BBQ</span><b>$64</b></li><li><span>Chicken Tenders</span><b>$54</b></li><li><span>Chicken Fritters</span><b>$56</b></li></ul></div>
+      </div>
+      <div class="combo"><div><h3>Preferred Customer Combo</h3><p class="small">Beef + Pork + Seafood + Chicken at $249.75 each</p></div><strong>$999</strong></div>
+      <p class="small" style="margin-top:5px">Prices/offers may change. Call to confirm current inventory and delivery.</p>
+      <div class="footer"><span>Menu</span><span>Cases & combo</span></div>
+    </article>
+
+    <article class="panel">
+      <span class="fold-label">Panel 3</span>
+      <p class="tag">Why customers buy</p>
+      <h2>Simple promise. Simple delivery.</h2>
+      <div class="quality-grid">
+        <div class="box red"><h3>Quality</h3><ul class="small"><li>USDA inspected</li><li>USDA Choice</li><li>Restaurant quality</li><li>30–40% less fat</li></ul></div>
+        <div class="box gold"><h3>Freezer-ready</h3><ul class="small"><li>Flash frozen</li><li>Vacuum sealed</li><li>Individually wrapped</li><li>No freezer burn</li></ul></div>
+      </div>
+      <div class="box red"><h3>How to order</h3><ol class="small" style="margin:4px 0 0 15px;padding:0"><li>Call and tell us what case, combo, or products you need.</li><li>We confirm availability, pricing, and delivery timing.</li><li>Your order is delivered to your home or business.</li></ol></div>
+      <div class="box gold"><h3>Business accounts</h3><p class="small">Restaurants, bars, lodges, offices, recurring orders, staff meals, and seasonal freezer fills.</p></div>
+      <div class="box" style="display:grid;grid-template-columns:.72in 1fr;gap:8px;align-items:center"><img class="qr" src="assets/site-qr.png" alt="QR code to Midwest Suppliers website"><p class="small"><b>Website:</b><br>justicejuly.github.io/midwest-suppliers-site<br><br><b>Payments:</b> Major cards, Venmo/Cash App, checks. Returned check fee: $35.</p></div>
+      <div class="footer"><span>Info/website</span><span>Rapid City · Black Hills</span></div>
+    </article>
+  </section>
+</body>
+</html>
