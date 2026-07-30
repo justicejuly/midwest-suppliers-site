@@ -3,110 +3,151 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MidWest Suppliers Meats & Seafood | Premium delivery</title>
-  <meta name="description" content="Premium Midwest meat and seafood delivery. Door-to-door service, hand selected freezer packs, and a simple concierge order request." />
+  <title>Midwest Suppliers Meats & Seafood | Rapid City & Black Hills Delivery</title>
+  <meta name="description" content="Midwest Suppliers Meats & Seafood delivers quality meat, seafood, and freezer bundles to homes and businesses in Rapid City and the Black Hills." />
+  <meta property="og:title" content="Midwest Suppliers Meats & Seafood" />
+  <meta property="og:description" content="Meat, seafood, freezer bundles, and commercial delivery for Rapid City and the Black Hills." />
+  <meta property="og:image" content="assets/knife-logo.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700;9..40,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
-  <a class="skip-link" href="#order">Skip to order request</a>
-  <header class="site-header" aria-label="Site header">
-    <a class="brand" href="index.html" aria-label="MidWest Suppliers home">
-      <span class="brand-mark">MS</span>
-      <span class="brand-text"><strong>MidWest Suppliers</strong><small>Meats & Seafood</small></span>
+  <a class="skip-link" href="#contact">Skip to contact</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Midwest Suppliers home">
+      <img src="assets/knife-logo.jpg" alt="Midwest Suppliers Meats & Seafood knife and fish hook logo" />
+      <span><strong>Midwest Suppliers</strong><small>Meats & Seafood</small></span>
     </a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="#selection">Selection</a>
-      <a href="#service">Service</a>
-      <a href="#order">Request order</a>
+    <nav aria-label="Primary navigation">
+      <a href="#menu">Menu</a>
+      <a href="#store">Online store</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-media" role="img" aria-label="Premium meats and seafood displayed on a dark butcher surface"></div>
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="kicker">Midwest meat & seafood delivery</p>
-        <h1 id="hero-title">A better way to stock the freezer.</h1>
-        <p class="hero-copy">Premium cuts, seafood, and family bundles brought directly to your door — with clear availability, friendly service, and no grocery-store run.</p>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Serving Rapid City · Black Hills · Deadwood Area</p>
+        <h1>Meats, seafood, and freezer bundles delivered to your door.</h1>
+        <p class="lead">Midwest Suppliers Meats & Seafood helps families, restaurants, bars, lodges, and local businesses stock up without the grocery-store run.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#order">Request an order</a>
-          <a class="button secondary" href="#selection">View selection</a>
+          <a class="btn primary" href="#store">Start an order</a>
+          <a class="btn secondary" href="#contact">Set up delivery</a>
         </div>
       </div>
-      <aside class="availability-card" aria-label="Availability preview">
-        <span class="card-label">Today’s focus</span>
-        <strong>Steaks · seafood · freezer packs</strong>
-        <p>Tell us what you want and we’ll confirm current availability before delivery.</p>
+      <aside class="hero-card">
+        <img src="assets/knife-logo.jpg" alt="Midwest Suppliers logo" />
+        <strong>Home + business delivery</strong>
+        <span>Fresh availability confirmed before every order.</span>
       </aside>
     </section>
 
-    <section class="statement" id="selection" aria-labelledby="selection-title">
+    <section class="info-strip" aria-label="Business highlights">
+      <div><strong>Home delivery</strong><span>Freezer fills, family packs, grill bundles.</span></div>
+      <div><strong>Restaurant supply</strong><span>Steaks, burgers, seafood, weekly ordering.</span></div>
+      <div><strong>Local service</strong><span>Rapid City and the Black Hills area.</span></div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="section-head">
+        <p class="eyebrow red">Simple menu</p>
+        <h2>Pick your category. We confirm what is available.</h2>
+        <p>No crowded brochure needed. Start with the items below, then we can build the right package for your home, restaurant, or business.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <span>01</span>
+          <h3>Beef</h3>
+          <p>Ribeye, filet, sirloin, New York strip, ground beef, burger patties, roasts, brisket, and freezer beef bundles.</p>
+        </article>
+        <article class="menu-card">
+          <span>02</span>
+          <h3>Pork</h3>
+          <p>Pork chops, ribs, bacon, ham, breakfast sausage, brats, pulled-pork cuts, and family packs.</p>
+        </article>
+        <article class="menu-card">
+          <span>03</span>
+          <h3>Chicken</h3>
+          <p>Chicken breasts, thighs, wings, tenders, bulk packs, and easy weeknight protein bundles.</p>
+        </article>
+        <article class="menu-card">
+          <span>04</span>
+          <h3>Seafood</h3>
+          <p>Shrimp, salmon, cod, crab, scallops, lobster options, and seasonal seafood specials.</p>
+        </article>
+        <article class="menu-card wide">
+          <span>05</span>
+          <h3>Freezer bundles</h3>
+          <p>Custom boxes for families, grilling season, holidays, restaurants, lodges, staff meals, and weekly commercial needs.</p>
+        </article>
+        <article class="menu-card dark">
+          <span>06</span>
+          <h3>Business accounts</h3>
+          <p>Restaurants and local businesses can request recurring delivery, bulk pricing, and product lists for weekly purchasing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="store" class="section store-section">
+      <div class="store-copy">
+        <p class="eyebrow gold">Online store</p>
+        <h2>Build a quick order request.</h2>
+        <p>This first version works like a simple online storefront: choose the products you are interested in, add notes, and send the request to your Midwest Suppliers representative.</p>
+      </div>
+
+      <div class="store-layout">
+        <div class="products" aria-label="Product request options">
+          <button class="product" data-item="Steak bundle"><strong>Steak bundle</strong><span>Ribeye, sirloin, strips, filets</span></button>
+          <button class="product" data-item="Family freezer box"><strong>Family freezer box</strong><span>Beef, pork, chicken mix</span></button>
+          <button class="product" data-item="Seafood box"><strong>Seafood box</strong><span>Shrimp, salmon, cod, crab</span></button>
+          <button class="product" data-item="Burger and grill pack"><strong>Burger & grill pack</strong><span>Patties, brats, steaks, ribs</span></button>
+          <button class="product" data-item="Restaurant weekly order"><strong>Restaurant weekly order</strong><span>Bulk meats and seafood delivery</span></button>
+          <button class="product" data-item="Custom request"><strong>Custom request</strong><span>Tell us what you need</span></button>
+        </div>
+
+        <form id="order-form" class="order-form">
+          <h3>Your request</h3>
+          <p id="cart-summary" class="cart-summary">Select items from the store to start.</p>
+          <label>Name<input name="name" autocomplete="name" required></label>
+          <label>Phone or email<input name="contact" autocomplete="email" required></label>
+          <label>Delivery area<input name="area" placeholder="Rapid City, Deadwood, Hill City, Spearfish..." required></label>
+          <label>Order notes<textarea name="notes" id="notes" placeholder="Example: family freezer bundle for 4 people, steaks for a restaurant special, seafood for Friday delivery..."></textarea></label>
+          <button class="btn primary full" type="submit">Save order request</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
       <div>
-        <p class="kicker dark">Selection</p>
-        <h2 id="selection-title">Built around the way families actually buy.</h2>
+        <p class="eyebrow red">Contact</p>
+        <h2>Ready for delivery?</h2>
+        <p>Midwest Suppliers Meats & Seafood serves homes and businesses across Rapid City, the Black Hills, and the Deadwood area. For door-to-door sales, send customers here to see the menu and start a simple order request.</p>
       </div>
-      <p>Keep the page simple: customers need to know what you sell, why it’s worth ordering, and how to start a conversation. The detailed brochure can come later; this landing page gets the premium first impression right.</p>
-    </section>
-
-    <section class="showcase" aria-label="Product categories">
-      <article class="category large">
-        <span>01</span>
-        <h3>Prime freezer cuts</h3>
-        <p>Ribeye, sirloin, filets, ground beef, pork chops, ham, bacon, sausage, and chicken packs.</p>
-      </article>
-      <article class="category image-card" aria-label="Generated butcher display image"></article>
-      <article class="category">
-        <span>02</span>
-        <h3>Seafood options</h3>
-        <p>Shrimp, salmon, cod, crab, and seasonal seafood — confirmed before delivery.</p>
-      </article>
-      <article class="category dark-card">
-        <span>03</span>
-        <h3>Family bundles</h3>
-        <p>Custom packs for grilling, weekly meals, holidays, or freezer restocks.</p>
-      </article>
-    </section>
-
-    <section class="service" id="service" aria-labelledby="service-title">
-      <p class="kicker dark">Door-to-door service</p>
-      <h2 id="service-title">Concierge ordering instead of a crowded catalog.</h2>
-      <div class="service-grid">
-        <div><strong>1</strong><p>Send a request with the cuts, seafood, or bundle size you’re looking for.</p></div>
-        <div><strong>2</strong><p>MidWest Suppliers confirms availability, pricing, and delivery timing.</p></div>
-        <div><strong>3</strong><p>Your order is delivered locally or handled in person by the sales team.</p></div>
+      <div class="contact-card">
+        <img src="assets/knife-logo.jpg" alt="Midwest Suppliers logo" />
+        <ul>
+          <li><strong>Business:</strong> Midwest Suppliers Meats & Seafood</li>
+          <li><strong>Service:</strong> Meat, seafood, freezer bundles, home and commercial delivery</li>
+          <li><strong>Area:</strong> Rapid City, Black Hills, Deadwood area</li>
+          <li><strong>Facebook:</strong> <a href="https://www.facebook.com/midwestsuppliersmeat/">MidWest Suppliers meats & seafood</a></li>
+        </ul>
+        <a class="btn secondary dark" href="#store">Request an order</a>
       </div>
-    </section>
-
-    <section class="order-section" id="order" aria-labelledby="order-title">
-      <div class="order-copy">
-        <p class="kicker">Start here</p>
-        <h2 id="order-title">Request an order.</h2>
-        <p>This is a clean lead form for the first version. Next, it can connect to email, Sheets, Airtable, CRM, or a live inventory agent.</p>
-      </div>
-      <form id="order-form" class="order-form" aria-label="Order request form">
-        <div class="form-row">
-          <label>Full name<input name="name" autocomplete="name" required></label>
-          <label>Phone<input name="phone" autocomplete="tel" required></label>
-        </div>
-        <label>What are you looking for?<textarea name="request" required placeholder="Example: steaks for a family of four, shrimp, ham, freezer bundle, delivery this week..."></textarea></label>
-        <div class="form-row">
-          <label>Delivery area / ZIP<input name="zip" autocomplete="postal-code"></label>
-          <label>Preferred follow-up<select name="followup"><option>Call me</option><option>Text me</option><option>Email me</option></select></label>
-        </div>
-        <button class="button primary light" type="submit">Save request draft</button>
-        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-      </form>
     </section>
   </main>
 
-  <footer class="footer">
-    <div><strong>MidWest Suppliers</strong><span>Meats & Seafood</span></div>
-    <p>Source note: public listing describes MidWest Suppliers as a top Midwest source for quality meats and seafood with free delivery. Final logo, brochure, pricing, and inventory data can be dropped into this structure.</p>
+  <footer>
+    <strong>Midwest Suppliers Meats & Seafood</strong>
+    <span>Serving Rapid City and the Black Hills · Delivery to homes and businesses</span>
   </footer>
-  <script src="app.js?v=2"></script>
+
+  <script src="app.js?v=3"></script>
 </body>
 </html>
