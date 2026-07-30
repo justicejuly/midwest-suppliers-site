@@ -3,86 +3,110 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MidWest Suppliers Meats & Seafood | Door-to-door meat delivery</title>
-  <meta name="description" content="MidWest Suppliers meats and seafood: premium meat and seafood with free local delivery, door-to-door service, and in-person ordering." />
+  <title>MidWest Suppliers Meats & Seafood | Premium delivery</title>
+  <meta name="description" content="Premium Midwest meat and seafood delivery. Door-to-door service, hand selected freezer packs, and a simple concierge order request." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700;9..40,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body data-page="home">
-  <div id="scene-shell" aria-hidden="true"><canvas id="meat-scene"></canvas><div class="scene-label">mouse-driven 3D cuts</div></div>
-  <header class="site-header">
+<body>
+  <a class="skip-link" href="#order">Skip to order request</a>
+  <header class="site-header" aria-label="Site header">
     <a class="brand" href="index.html" aria-label="MidWest Suppliers home">
       <span class="brand-mark">MS</span>
-      <span><strong>MidWest Suppliers</strong><small>Meats & Seafood</small></span>
+      <span class="brand-text"><strong>MidWest Suppliers</strong><small>Meats & Seafood</small></span>
     </a>
-    <nav class="nav-links" aria-label="Primary navigation">
-      <a href="brochure.html">Menu Brochure</a>
-      <a href="order.html">Order Form</a>
-      <a href="inventory.html">Live Inventory AI</a>
-      <a class="btn small" href="order.html">Start Order</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#selection">Selection</a>
+      <a href="#service">Service</a>
+      <a href="#order">Request order</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero section-panel" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">Midwest #1 source for top quality meats & seafood</p>
-        <h1>Free delivery, door-to-door service, and butcher-shop quality.</h1>
-        <p class="lede">A high-fidelity website prototype for MidWest Suppliers: rustic deadwood visuals, 3D meat-cut transitions, brochure/menu pages, an online order flow, and a mocked live-inventory AI agent ready to wire up later.</p>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="Premium meats and seafood displayed on a dark butcher surface"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="kicker">Midwest meat & seafood delivery</p>
+        <h1 id="hero-title">A better way to stock the freezer.</h1>
+        <p class="hero-copy">Premium cuts, seafood, and family bundles brought directly to your door — with clear availability, friendly service, and no grocery-store run.</p>
         <div class="hero-actions">
-          <a class="btn" href="order.html">Build an order</a>
-          <a class="btn ghost" href="inventory.html">Ask inventory AI</a>
+          <a class="button primary" href="#order">Request an order</a>
+          <a class="button secondary" href="#selection">View selection</a>
         </div>
-        <div class="source-note"><strong>Source pulled:</strong> Facebook/search result says: “We are the Midwest #1 Source for delicious top quality meats and seafood. We offer 100% free delivery.” More logo/menu assets can drop in when you send them.</div>
       </div>
-      <figure class="hero-card">
-        <img src="assets/butcher-display.png" alt="Premium meats and seafood displayed on rustic deadwood" />
-        <figcaption>Generated butcher display on deadwood — replaceable with real photography.</figcaption>
-      </figure>
+      <aside class="availability-card" aria-label="Availability preview">
+        <span class="card-label">Today’s focus</span>
+        <strong>Steaks · seafood · freezer packs</strong>
+        <p>Tell us what you want and we’ll confirm current availability before delivery.</p>
+      </aside>
     </section>
 
-    <section class="split section-panel" id="delivery">
+    <section class="statement" id="selection" aria-labelledby="selection-title">
       <div>
-        <p class="eyebrow">Door-to-door + in-person</p>
-        <h2>Built for people buying out of the truck, at the counter, or from home.</h2>
+        <p class="kicker dark">Selection</p>
+        <h2 id="selection-title">Built around the way families actually buy.</h2>
       </div>
-      <div class="cards two">
-        <article class="card"><h3>Door-to-door delivery</h3><p>Free local delivery messaging is emphasized with simple order capture, preferred delivery window, and cooler/drop-off instructions.</p></article>
-        <article class="card"><h3>In-person sales support</h3><p>Mobile-friendly pages make it easy for the sales team to pull up cuts, bundles, specials, and availability while talking to customers.</p></article>
+      <p>Keep the page simple: customers need to know what you sell, why it’s worth ordering, and how to start a conversation. The detailed brochure can come later; this landing page gets the premium first impression right.</p>
+    </section>
+
+    <section class="showcase" aria-label="Product categories">
+      <article class="category large">
+        <span>01</span>
+        <h3>Prime freezer cuts</h3>
+        <p>Ribeye, sirloin, filets, ground beef, pork chops, ham, bacon, sausage, and chicken packs.</p>
+      </article>
+      <article class="category image-card" aria-label="Generated butcher display image"></article>
+      <article class="category">
+        <span>02</span>
+        <h3>Seafood options</h3>
+        <p>Shrimp, salmon, cod, crab, and seasonal seafood — confirmed before delivery.</p>
+      </article>
+      <article class="category dark-card">
+        <span>03</span>
+        <h3>Family bundles</h3>
+        <p>Custom packs for grilling, weekly meals, holidays, or freezer restocks.</p>
+      </article>
+    </section>
+
+    <section class="service" id="service" aria-labelledby="service-title">
+      <p class="kicker dark">Door-to-door service</p>
+      <h2 id="service-title">Concierge ordering instead of a crowded catalog.</h2>
+      <div class="service-grid">
+        <div><strong>1</strong><p>Send a request with the cuts, seafood, or bundle size you’re looking for.</p></div>
+        <div><strong>2</strong><p>MidWest Suppliers confirms availability, pricing, and delivery timing.</p></div>
+        <div><strong>3</strong><p>Your order is delivered locally or handled in person by the sales team.</p></div>
       </div>
     </section>
 
-    <section class="catalog-strip section-panel" id="cuts">
-      <p class="eyebrow">Starter categories</p>
-      <h2>Meats, seafood, bundles, and specials.</h2>
-      <div class="cut-grid">
-        <a href="brochure.html#beef"><span>01</span><strong>Beef</strong><small>Ribeye, sirloin, filets, burger boxes</small></a>
-        <a href="brochure.html#pork"><span>02</span><strong>Pork</strong><small>Ham, chops, bacon, sausage packs</small></a>
-        <a href="brochure.html#seafood"><span>03</span><strong>Seafood</strong><small>Shrimp, salmon, cod, crab options</small></a>
-        <a href="brochure.html#bundles"><span>04</span><strong>Freezer Bundles</strong><small>Family packs and rotating deals</small></a>
+    <section class="order-section" id="order" aria-labelledby="order-title">
+      <div class="order-copy">
+        <p class="kicker">Start here</p>
+        <h2 id="order-title">Request an order.</h2>
+        <p>This is a clean lead form for the first version. Next, it can connect to email, Sheets, Airtable, CRM, or a live inventory agent.</p>
       </div>
-    </section>
-
-    <section class="motion-explainer section-panel" id="motion">
-      <div>
-        <p class="eyebrow">3D transition concept</p>
-        <h2>The floating steak and ham react to mouse movement and scroll position.</h2>
-        <p>The current build uses real-time Three.js geometry as a lightweight browser-native mockup. Later we can replace these with generated GLB/GLTF models from a 3D workflow while keeping the same transition controls.</p>
-      </div>
-      <ol class="steps">
-        <li><strong>Hover/mouse move:</strong> cuts rotate and “present” the next section.</li>
-        <li><strong>Scroll:</strong> color, scale, and position shift between meat, seafood, ordering, and AI surfaces.</li>
-        <li><strong>Reduced motion:</strong> users who prefer less motion get a calmer layout.</li>
-      </ol>
+      <form id="order-form" class="order-form" aria-label="Order request form">
+        <div class="form-row">
+          <label>Full name<input name="name" autocomplete="name" required></label>
+          <label>Phone<input name="phone" autocomplete="tel" required></label>
+        </div>
+        <label>What are you looking for?<textarea name="request" required placeholder="Example: steaks for a family of four, shrimp, ham, freezer bundle, delivery this week..."></textarea></label>
+        <div class="form-row">
+          <label>Delivery area / ZIP<input name="zip" autocomplete="postal-code"></label>
+          <label>Preferred follow-up<select name="followup"><option>Call me</option><option>Text me</option><option>Email me</option></select></label>
+        </div>
+        <button class="button primary light" type="submit">Save request draft</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <span>MidWest Suppliers meats & seafood prototype</span>
-    <a href="https://www.facebook.com/midwestsuppliersmeat/">Facebook source</a>
+  <footer class="footer">
+    <div><strong>MidWest Suppliers</strong><span>Meats & Seafood</span></div>
+    <p>Source note: public listing describes MidWest Suppliers as a top Midwest source for quality meats and seafood with free delivery. Final logo, brochure, pricing, and inventory data can be dropped into this structure.</p>
   </footer>
-  <script type="module" src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
