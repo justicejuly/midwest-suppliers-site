@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Midwest Suppliers Printable Brochure & Menu</title>
+  <style>
+    :root{
+      --ink:#17110d;
+      --muted:#5f5349;
+      --red:#b5122a;
+      --gold:#b8891f;
+      --line:#d8d0c5;
+      --paper:#fffdf8;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#ece8df;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.28}
+    .toolbar{max-width:8.5in;margin:16px auto;padding:10px 14px;background:#fff;border:1px solid var(--line);border-radius:10px;font-size:14px;color:var(--muted)}
+    .toolbar strong{color:var(--ink)}
+    .sheet{width:8.5in;min-height:11in;margin:16px auto;background:var(--paper);padding:.38in .42in;border:1px solid #cfc7bc;box-shadow:0 12px 30px rgba(0,0,0,.12);position:relative;overflow:hidden}
+    .sheet::before{content:"";position:absolute;inset:0 0 auto;height:7px;background:linear-gradient(90deg,var(--red),var(--gold));print-color-adjust:exact;-webkit-print-color-adjust:exact}
+    .header{display:grid;grid-template-columns:1fr 1.55in;gap:16px;align-items:start;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:14px}
+    .brand-row{display:flex;gap:12px;align-items:center;margin-bottom:8px}.logo{width:1.25in;height:.78in;object-fit:cover;border:1px solid var(--line)}
+    h1,h2,h3,p{margin:0} h1{font-size:34px;line-height:.95;text-transform:uppercase;letter-spacing:.02em} h2{font-size:22px;text-transform:uppercase;letter-spacing:.03em;margin-bottom:8px} h3{font-size:15px;text-transform:uppercase;letter-spacing:.03em}
+    .subtitle{font-size:15px;color:var(--muted);font-weight:700;margin-top:6px}.phone{font-size:27px;font-weight:900;color:var(--red);text-decoration:none;display:block;margin-top:8px}.photo{width:100%;height:1.25in;object-fit:cover;border:1px solid var(--line);filter:saturate(.88) contrast(1.02)}
+    .callout{border:2px solid var(--red);padding:10px 12px;margin:12px 0;background:#fff}.callout strong{font-size:19px}.callout small{display:block;color:var(--muted);margin-top:3px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.box{border:1px solid var(--line);background:#fff;padding:10px}.box.redline{border-top:4px solid var(--red)}.box.goldline{border-top:4px solid var(--gold)}
+    ul{margin:8px 0 0 18px;padding:0}li{margin:3px 0}.simple-list{list-style:none;margin:8px 0 0;padding:0}.simple-list li{border-bottom:1px solid var(--line);padding:5px 0;display:flex;justify-content:space-between;gap:14px}.simple-list b{white-space:nowrap}.guarantee{font-size:13px;color:var(--muted)}.big{font-size:19px;font-weight:900;color:var(--red)}
+    .menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.case{border:1px solid var(--line);background:#fff}.case h3{display:flex;justify-content:space-between;gap:10px;background:#f7f2e9;border-bottom:1px solid var(--line);padding:8px 10px;font-size:16px}.case h3 span{color:var(--red)}.case ul{list-style:none;margin:0;padding:4px 10px 8px}.case li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted #c7beb2;padding:4px 0;font-size:13px}.case li:last-child{border-bottom:0}.combo{display:grid;grid-template-columns:1fr 1.25in;gap:12px;align-items:center;border:2px solid var(--ink);background:#fff;padding:10px;margin-top:12px}.combo strong{font-size:34px;color:var(--red);text-align:right}.fineprint{font-size:11px;color:var(--muted);margin-top:10px;border-top:1px solid var(--line);padding-top:7px}.footer{position:absolute;left:.42in;right:.42in;bottom:.28in;border-top:1px solid var(--line);padding-top:7px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:12px}.url{font-weight:900;color:var(--ink)}
+    .no-ink-note{font-size:12px;color:var(--muted);margin-top:6px}.page-break{break-before:page;page-break-before:always}
+    @page{size:letter;margin:0}
+    @media print{
+      body{background:white}.toolbar{display:none}.sheet{margin:0;border:0;box-shadow:none;width:8.5in;height:11in;min-height:11in}.photo{filter:grayscale(100%) contrast(1.05)}a{text-decoration:none;color:inherit}.sheet::before{height:5px}
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar"><strong>Print tip:</strong> Print double-sided, “actual size,” black-and-white/economy mode. This brochure uses mostly white space and thin accents to save ink. The steak photo prints in grayscale.</div>
+
+  <section class="sheet">
+    <div class="header">
+      <div>
+        <div class="brand-row">
+          <img class="logo" src="assets/knife-logo.jpg" alt="Midwest Suppliers knife logo">
+          <div>
+            <h1>Midwest Suppliers</h1>
+            <p class="subtitle">Meats & Seafood · Home & Business Delivery</p>
+          </div>
+        </div>
+        <p class="subtitle">Serving Rapid City, the Black Hills, Deadwood, and surrounding areas since 2020.</p>
+        <a class="phone" href="tel:16056759429">605-675-9429</a>
+      </div>
+      <img class="photo" src="assets/steak-seafood-plate.jpg" alt="Plated steak topped with seafood and sauce">
+    </div>
+
+    <div class="callout">
+      <strong>Restaurant-quality meats and seafood delivered to your door.</strong>
+      <small>USDA inspected · USDA Choice · flash frozen · vacuum sealed · individually wrapped · no freezer burn</small>
+    </div>
+
+    <div class="grid-3">
+      <div class="box redline"><h3>Free home delivery</h3><p class="guarantee">Stock the freezer without the grocery-store run.</p></div>
+      <div class="box goldline"><h3>Business accounts</h3><p class="guarantee">Restaurants, bars, lodges, offices, and recurring orders.</p></div>
+      <div class="box redline"><h3>Freezer offer</h3><p class="guarantee">Ask about a <b>free chest freezer</b> with select orders.</p></div>
+    </div>
+
+    <div class="grid-2" style="margin-top:14px">
+      <div class="box">
+        <h2>Popular orders</h2>
+        <ul>
+          <li>Big Beef Case</li>
+          <li>Pork Case</li>
+          <li>Seafood Case</li>
+          <li>Chicken Case</li>
+          <li>Preferred Customer Combo</li>
+          <li>Custom home or business order</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h2>One-year guarantee</h2>
+        <p class="guarantee">Products are guaranteed for one full year from date of purchase for tenderness and quality. If you are dissatisfied, Midwest Suppliers will replace any unused portion.</p>
+        <p class="no-ink-note"><b>Payments:</b> Major credit cards, Venmo/Cash App, and checks accepted. Returned check fee: $35.</p>
+      </div>
+    </div>
+
+    <div class="box" style="margin-top:14px">
+      <h2>How to order</h2>
+      <ol style="margin:8px 0 0 20px;padding:0">
+        <li>Call <b>605-675-9429</b> and tell us what case, combo, or products you need.</li>
+        <li>We confirm current availability, pricing, and delivery timing.</li>
+        <li>Your order is delivered to your home or business.</li>
+      </ol>
+    </div>
+
+    <div class="footer"><span>Midwest Suppliers Meats & Seafood</span><span class="url">justicejuly.github.io/midwest-suppliers-site</span></div>
+  </section>
+
+  <section class="sheet page-break">
+    <div class="header">
+      <div>
+        <h1>Menu & Cases</h1>
+        <p class="subtitle">Call to confirm current availability, pricing, delivery timing, and freezer offers.</p>
+        <a class="phone" href="tel:16056759429">605-675-9429</a>
+      </div>
+      <img class="logo" src="assets/knife-logo.jpg" alt="Midwest Suppliers knife logo" style="justify-self:end;width:1.55in;height:.95in">
+    </div>
+
+    <div class="menu-grid">
+      <article class="case">
+        <h3>Big Beef Case <span>$624</span></h3>
+        <ul>
+          <li><span>Filet Mignon</span><b>$149</b></li>
+          <li><span>New York Strip</span><b>$89</b></li>
+          <li><span>Ranch Sirloin</span><b>$89</b></li>
+          <li><span>Rib Eye</span><b>$99</b></li>
+          <li><span>Porterhouse</span><b>$119</b></li>
+          <li><span>Sirloin Burgers</span><b>$79</b></li>
+        </ul>
+      </article>
+
+      <article class="case">
+        <h3>Pork Case <span>$361</span></h3>
+        <ul>
+          <li><span>Center Cut Pork Chops</span><b>$59</b></li>
+          <li><span>Porterhouse Pork Chops</span><b>$69</b></li>
+          <li><span>Sirloin Roasts</span><b>$59</b></li>
+          <li><span>Bone-in Pork Chops</span><b>$62</b></li>
+          <li><span>Italian Sausage</span><b>$57</b></li>
+          <li><span>Country Style Ribs</span><b>$55</b></li>
+        </ul>
+      </article>
+
+      <article class="case">
+        <h3>Seafood Case <span>$449</span></h3>
+        <ul>
+          <li><span>Jumbo Peeled Shrimp</span><b>$59</b></li>
+          <li><span>Un-peeled Shrimp</span><b>$55</b></li>
+          <li><span>Mahi Mahi Filet</span><b>$84</b></li>
+          <li><span>Sockeye Salmon</span><b>$99</b></li>
+          <li><span>Red Snapper Filets</span><b>$74</b></li>
+          <li><span>Sea Scallops</span><b>$78</b></li>
+        </ul>
+      </article>
+
+      <article class="case">
+        <h3>Chicken Case <span>$361</span></h3>
+        <ul>
+          <li><span>Plain Chicken Breasts</span><b>$59</b></li>
+          <li><span>Lemon Pepper Breasts</span><b>$64</b></li>
+          <li><span>Italian Breasts</span><b>$64</b></li>
+          <li><span>Mild BBQ Breasts</span><b>$64</b></li>
+          <li><span>Chicken Tenders</span><b>$54</b></li>
+          <li><span>Chicken Fritters</span><b>$56</b></li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="combo">
+      <div>
+        <p class="eyebrow">Preferred Customer Combo</p>
+        <h2>Beef + Pork + Seafood + Chicken</h2>
+        <p class="guarantee">Beef Case, Pork Case, Seafood Case, and Chicken Case at $249.75 each.</p>
+      </div>
+      <strong>$999</strong>
+    </div>
+
+    <div class="grid-2" style="margin-top:12px">
+      <div class="box">
+        <h3>Quality checklist</h3>
+        <ul>
+          <li>USDA inspected</li>
+          <li>USDA Choice</li>
+          <li>Restaurant quality</li>
+          <li>30–40% less fat</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Freezer-ready</h3>
+        <ul>
+          <li>Flash frozen</li>
+          <li>Vacuum sealed</li>
+          <li>Individually wrapped</li>
+          <li>No freezer burn</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="fineprint">Prices and offers are based on the current brochure and may change. Call to confirm current inventory, exact package details, delivery availability, and free chest freezer eligibility before purchase.</p>
+    <div class="footer"><span>Free home delivery · Home and business accounts</span><span class="url">Call 605-675-9429</span></div>
+  </section>
+</body>
+</html>
