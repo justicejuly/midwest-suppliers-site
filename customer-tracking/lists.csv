@@ -1,0 +1,73 @@
+List Name,Value
+Customer Type,Home
+Customer Type,Business
+Customer Type,Restaurant
+Customer Type,Lodge
+Customer Type,Bar
+Customer Type,Office
+Customer Type,Other
+Preferred Contact,Call
+Preferred Contact,Text
+Preferred Contact,Email
+Product Interest,Beef
+Product Interest,Pork
+Product Interest,Chicken
+Product Interest,Seafood
+Product Interest,Combo
+Product Interest,Freezer
+Product Interest,Business Order
+Product Interest,Restaurant Weekly Order
+Product Interest,Custom
+Payment Method,Card
+Payment Method,Cash App
+Payment Method,Venmo
+Payment Method,Check
+Payment Method,Cash
+Payment Method,Other
+Delivery Status,Pending
+Delivery Status,Scheduled
+Delivery Status,Delivered
+Delivery Status,Cancelled
+Follow Up Status,Not Started
+Follow Up Status,Contacted
+Follow Up Status,Done
+Follow Up Status,No Answer
+Follow Up Status,Do Not Contact
+Follow Up Priority,High
+Follow Up Priority,Medium
+Follow Up Priority,Low
+Rewards Status,New
+Rewards Status,Active
+Rewards Status,VIP
+Rewards Status,Inactive
+Rewards Tier,Starter
+Rewards Tier,Stocked
+Rewards Tier,VIP
+Referral Status,New
+Referral Status,Contacted
+Referral Status,Ordered
+Referral Status,Rewarded
+Referral Status,Dead
+Restaurant Lead Status,New
+Restaurant Lead Status,Contacted
+Restaurant Lead Status,Meeting Set
+Restaurant Lead Status,Sample Dropped
+Restaurant Lead Status,Won
+Restaurant Lead Status,Lost
+Restaurant Lead Priority,A
+Restaurant Lead Priority,B
+Restaurant Lead Priority,C
+Order Type,Beef
+Order Type,Pork
+Order Type,Seafood
+Order Type,Chicken
+Order Type,Combo
+Order Type,Custom
+Order Type,Business
+Follow Up Reason,New Lead
+Follow Up Reason,Reorder
+Follow Up Reason,Delivery Check-in
+Follow Up Reason,Restaurant Meeting
+Follow Up Reason,Referral
+Follow Up Reason,Reward
+Follow Up Reason,Quote Follow-up
