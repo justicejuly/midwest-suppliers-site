@@ -97,7 +97,7 @@ story.append(P(f'<br/><b>Website:</b> {URL}', 'SmallMS'))
 story.append(PageBreak())
 
 # Page 2
-story += [P('Menu & Cases', 'TitleMS'), P('Call to confirm current availability, pricing, delivery timing, and freezer offers.', 'BodyMS'), P(PHONE, 'Phone'), Spacer(1, 8)]
+story += [P('Menu & Cases', 'TitleMS'), P('Selections, prices, and availability may vary. Call to confirm current menu, pricing, delivery options, veteran discounts, current deals, and freezer offers.', 'BodyMS'), P(PHONE, 'Phone'), Spacer(1, 8)]
 beef=[('Filet Mignon','$149'),('New York Strip','$89'),('Ranch Sirloin','$89'),('Rib Eye','$99'),('Porterhouse','$119'),('Sirloin Burgers','$79')]
 pork=[('Center Cut Pork Chops','$59'),('Porterhouse Pork Chops','$69'),('Sirloin Roasts','$59'),('Bone-in Pork Chops','$62'),('Italian Sausage','$57'),('Country Style Ribs','$55')]
 sea=[('Jumbo Peeled Shrimp','$59'),('Un-peeled Shrimp','$55'),('Mahi Mahi Filet','$84'),('Sockeye Salmon','$99'),('Red Snapper Filets','$74'),('Sea Scallops','$78')]
@@ -106,7 +106,7 @@ story.append(Table([[case_table('Big Beef Case','$624',beef), case_table('Pork C
 story.append(boxed([[[P('Preferred Customer Combo','RedHead'), P('Beef Case + Pork Case + Seafood Case + Chicken Case<br/>Four cases at $249.75 each.', 'BodyMS')], P('$999','Phone')]], [5.45*inch,1.55*inch]))
 story.append(Spacer(1, 8))
 story.append(boxed([[[P('Quality checklist','BoxHead'), P('• USDA inspected<br/>• USDA Choice<br/>• Restaurant quality<br/>• 30–40% less fat','SmallMS')], [P('Freezer-ready','BoxHead'), P('• Flash frozen<br/>• Vacuum sealed<br/>• Individually wrapped<br/>• No freezer burn','SmallMS')]]], [3.5*inch,3.5*inch]))
-story.append(P('<br/>Prices and offers are based on the current brochure and may change. Call to confirm current inventory, exact package details, delivery availability, and free chest freezer eligibility before purchase.', 'SmallMS'))
+story.append(P('<br/>Selections, prices, and availability may vary. Call to confirm current inventory, exact package details, delivery availability, veteran discounts, current deals, and free chest freezer eligibility before purchase.', 'SmallMS'))
 
 doc = SimpleDocTemplate(str(OUT), pagesize=letter, rightMargin=.5*inch, leftMargin=.5*inch, topMargin=.35*inch, bottomMargin=.45*inch, title='Midwest Suppliers Low Ink Brochure')
 doc.build(story, onFirstPage=draw_page, onLaterPages=draw_page)
