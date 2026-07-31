@@ -6,11 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const draft = localStorage.getItem('midwestSuppliersOrderRequest');
   if (draft && status) status.textContent = 'Saved request draft found on this device.';
 
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
+  form.addEventListener('submit', () => {
     const data = Object.fromEntries(new FormData(form).entries());
     data.savedAt = new Date().toISOString();
     localStorage.setItem('midwestSuppliersOrderRequest', JSON.stringify(data));
-    if (status) status.textContent = 'Request saved on this device. Call 605-675-9429 to confirm availability and delivery.';
+    if (status) status.textContent = 'Sending your request to Midwest Suppliers...';
   });
 });

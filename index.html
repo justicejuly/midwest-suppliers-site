@@ -138,12 +138,19 @@
         <p>For homes, restaurants, and businesses in Rapid City and the Black Hills. Tell us what case, combo, or delivery schedule you need.</p>
         <a class="phone-link" href="tel:16056759429">605-675-9429</a>
       </div>
-      <form id="order-form" class="order-form">
+      <form id="order-form" class="order-form" action="https://formsubmit.co/midwestsuppliersmeat@gmail.com" method="POST">
         <h3>Quick order note</h3>
+        <input type="hidden" name="_subject" value="New Midwest Suppliers quick order note">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://justicejuly.github.io/midwest-suppliers-site/thank-you.html">
+        <input type="hidden" name="_autoresponse" value="Thank you for contacting Midwest Suppliers Meats & Seafood. We got your message and will be in contact with you as soon as possible. For faster help, call or text 605-675-9429.">
         <label>Name<input name="name" autocomplete="name" required></label>
-        <label>Phone or email<input name="contact" autocomplete="email" required></label>
-        <label>What do you want?<textarea name="notes" placeholder="Example: Big Beef Case, Preferred Customer Combo, seafood case, restaurant weekly order..." required></textarea></label>
-        <button class="btn primary full" type="submit">Save request draft</button>
+        <label>Email for automatic reply<input type="email" name="email" autocomplete="email" required></label>
+        <label>Phone number<input name="phone" autocomplete="tel" placeholder="Best number to call or text"></label>
+        <label>What do you want?<textarea name="message" placeholder="Example: Big Beef Case, Preferred Customer Combo, seafood case, restaurant weekly order..." required></textarea></label>
+        <button class="btn primary full" type="submit">Send request to Midwest Suppliers</button>
+        <p class="form-note">This sends your note to midwestsuppliersmeat@gmail.com and emails you a confirmation.</p>
         <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
       </form>
     </section>
