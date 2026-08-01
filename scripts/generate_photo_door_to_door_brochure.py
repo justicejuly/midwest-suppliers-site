@@ -8,15 +8,15 @@ import qrcode
 
 ROOT=Path('/opt/data/midwest-suppliers-site')
 OUT=ROOT/'door-to-door-brochures'/'midwest-door-to-door-photo-menu-style.pdf'
-LOGO=ROOT/'assets'/'knife-logo.jpg'
-BADGE=ROOT/'assets'/'profile-logos'/'midwest-profile-logo-badge-red-black-gold-text-no-repeat.png'
+LOGO=ROOT/'assets'/'midwest-brochure-back-logo.jpg'
+BADGE=ROOT/'assets'/'midwest-brochure-back-logo.jpg'
+DISPLAY_DOMAIN='midwestsuppliersmeat.com'
 QR=ROOT/'assets'/'site-qr.png'
 PRIME=ROOT/'assets'/'door-to-door-prime-rib-plate.jpg'
 MEATSEA=ROOT/'assets'/'door-to-door-meat-seafood-plate.jpg'
 GRILL=ROOT/'assets'/'door-to-door-grill-steak.jpg'
 URL='https://justicejuly.github.io/midwest-suppliers-site/'
 PHONE='605-675-9429'
-IG='@midwestsuppliersmeat'
 if not QR.exists():
     qr=qrcode.QRCode(box_size=6,border=2); qr.add_data(URL); qr.make(fit=True); qr.make_image(fill_color='black',back_color='white').save(str(QR))
 red=colors.HexColor('#b5122a'); gold=colors.HexColor('#b8891f'); ink=colors.HexColor('#17110d'); muted=colors.HexColor('#5d5147'); line=colors.HexColor('#d8d0c5'); soft=colors.HexColor('#f7f2e9'); cream=colors.HexColor('#fffdf8')
@@ -52,8 +52,8 @@ def draw(c,doc):
     w,h=letter; c.saveState(); c.setFillColor(cream); c.rect(0,0,w,h,fill=1,stroke=0); c.setStrokeColor(line); c.rect(.22*inch,.22*inch,w-.44*inch,h-.44*inch,stroke=1,fill=0); c.restoreState()
 
 def front():
-    logo=Image(str(LOGO),1.05*inch,.66*inch); prime=Image(str(PRIME),4.75*inch,1.9*inch); meatsea=Image(str(MEATSEA),2.25*inch,.9*inch); grill=Image(str(GRILL),2.25*inch,.9*inch); qr=Image(str(QR),.8*inch,.8*inch)
-    story=[Table([[logo,[P('Rapid City · Black Hills · Deadwood Area','PhotoKicker'),P('Restaurant-quality meats delivered','PhotoTitle'),P('Freezer-ready meats and seafood for homes, restaurants, and businesses.','PhotoLead')]]],colWidths=[1.15*inch,6.1*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),5)]),Spacer(1,8)]
+    logo=Image(str(LOGO),.78*inch,.78*inch); prime=Image(str(PRIME),4.75*inch,1.9*inch); meatsea=Image(str(MEATSEA),2.25*inch,.9*inch); grill=Image(str(GRILL),2.25*inch,.9*inch); qr=Image(str(QR),.8*inch,.8*inch)
+    story=[Table([[logo,[P('Rapid City · Deadwood · The Black Hills','PhotoKicker'),P('Restaurant-quality meats delivered','PhotoTitle'),P('Freezer-ready meats and seafood for homes, restaurants, and businesses.','PhotoLead')]]],colWidths=[1.15*inch,6.1*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),5)]),Spacer(1,8)]
     photos=Table([[prime,[meatsea,Spacer(1,4),grill]]],colWidths=[4.85*inch,2.35*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('BOX',(0,0),(0,0),1.2,red),('BOX',(1,0),(1,0),.6,line),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),0)])
     story += [photos,Spacer(1,8)]
     cases=Table([[mini_case('Big Beef','$624',beef),mini_case('Seafood','$449',sea)],[mini_case('Pork','$361',pork),mini_case('Chicken','$361',chick)]],colWidths=[1.82*inch,1.82*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('BOTTOMPADDING',(0,0),(-1,-1),4),('RIGHTPADDING',(0,0),(-1,-1),5)])
@@ -69,8 +69,9 @@ def front():
     return story
 
 def back():
-    badge=Image(str(BADGE),2.5*inch,2.5*inch)
-    return [Spacer(1,1.15*inch),Table([[badge]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.25*inch),P('Midwest Suppliers<br/>Meats & Seafood','BackTitlePhoto'),Spacer(1,.12*inch),P('Meats · Seafood · Freezer cases · Home & business delivery','BackBodyPhoto'),Spacer(1,.16*inch),P(PHONE,'PhotoPhone'),P(URL.replace('https://',''),'CenterSmallPhoto'),Spacer(1,.08*inch),P(f'Instagram {IG}','BackBodyPhoto'),Spacer(1,.18*inch),P('Serving Rapid City, the Black Hills, Deadwood, and surrounding areas.','CenterSmallPhoto')]
+    badge=Image(str(BADGE),3.05*inch,3.05*inch)
+    qr=Image(str(QR),1.05*inch,1.05*inch)
+    return [Spacer(1,.70*inch),Table([[badge]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.22*inch),P('Midwest Suppliers<br/>Meats & Seafood','BackTitlePhoto'),Spacer(1,.12*inch),P('Meats · Seafood · Freezer cases · Home & business delivery','BackBodyPhoto'),Spacer(1,.16*inch),P(PHONE,'PhotoPhone'),Spacer(1,.10*inch),Table([[qr]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.05*inch),P(DISPLAY_DOMAIN,'BackBodyPhoto'),Spacer(1,.16*inch),P('Serving Rapid City, Deadwood, the Black Hills, and surrounding areas. Scan the QR code to visit the website, or call/text to ask about current availability, delivery, rewards, veteran discounts, deals, and freezer offers.','CenterSmallPhoto')]
 
 doc=SimpleDocTemplate(str(OUT),pagesize=letter,leftMargin=.42*inch,rightMargin=.42*inch,topMargin=.38*inch,bottomMargin=.35*inch,title='Midwest Suppliers Photo Door-to-Door Brochure')
 doc.build(front()+[PageBreak()]+back(),onFirstPage=draw,onLaterPages=draw)
