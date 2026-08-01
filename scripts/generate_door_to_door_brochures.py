@@ -12,6 +12,8 @@ OUT = ROOT / 'door-to-door-brochures'
 OUT.mkdir(exist_ok=True)
 LOGO = ROOT / 'assets' / 'knife-logo.jpg'
 BADGE = ROOT / 'assets' / 'profile-logos' / 'midwest-profile-logo-badge-red-black-gold-text-no-repeat.png'
+FIRST_BACK_LOGO = ROOT / 'assets' / 'midwest-brochure-back-logo.jpg'
+DISPLAY_DOMAIN = 'midwestsuppliersmeat.com'
 QR = ROOT / 'assets' / 'site-qr.png'
 URL = 'https://justicejuly.github.io/midwest-suppliers-site/'
 PHONE = '605-675-9429'
@@ -76,12 +78,12 @@ def draw_border(c, doc, style='playful'):
 
 def front_story(kind):
     is_play=kind=='playful'
-    logo=Image(str(LOGO),width=1.05*inch,height=.66*inch)
+    logo=Image(str(FIRST_BACK_LOGO if is_play else LOGO),width=(.78*inch if is_play else 1.05*inch),height=(.78*inch if is_play else .66*inch))
     qr=Image(str(QR),width=.8*inch,height=.8*inch)
     title_style='MSTitleBlue' if is_play else 'MSTitleRed'
     title='Meats & seafood delivered' if is_play else 'Fill your freezer'
-    kicker='Rapid City · Black Hills · Deadwood Area' if is_play else 'Door-to-door delivery menu'
-    lead='Stock your freezer without the grocery-store run. Midwest Suppliers delivers freezer-ready meats and seafood to homes, restaurants, and businesses.' if is_play else 'Restaurant-quality meats and seafood delivered across Rapid City, the Black Hills, Deadwood, and surrounding areas.'
+    kicker='Rapid City · Deadwood · The Black Hills' if is_play else 'Door-to-door delivery menu'
+    lead='Stock your freezer without the grocery-store run. Midwest Suppliers delivers freezer-ready meats and seafood to homes, restaurants, and businesses.' if is_play else 'Restaurant-quality meats and seafood delivered across Rapid City, Deadwood, the Black Hills, and surrounding areas.'
     story=[]
     story.append(Table([[logo,[P(kicker,'MSKicker'),P(title,title_style),P(lead,'MSLead')]]],colWidths=[1.15*inch,6.15*inch],style=[('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),5)]))
     story.append(Spacer(1,10))
@@ -107,14 +109,18 @@ def front_story(kind):
     story.append(cta)
     return story
 
-def back_story():
+def back_story(kind='playful'):
+    qr=Image(str(QR),width=1.05*inch,height=1.05*inch)
+    if kind == 'playful':
+        badge=Image(str(FIRST_BACK_LOGO),width=3.05*inch,height=3.05*inch)
+        return [Spacer(1,.72*inch),Table([[badge]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.22*inch),P('Midwest Suppliers<br/>Meats & Seafood','MSBackTitle'),Spacer(1,.12*inch),P('Delivered to homes and businesses across Rapid City, Deadwood, the Black Hills, and surrounding areas.','MSBackBody'),Spacer(1,.14*inch),P(PHONE,'MSPhone'),Spacer(1,.10*inch),Table([[qr]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.05*inch),P(DISPLAY_DOMAIN,'MSBackBody'),Spacer(1,.14*inch),P('Scan the QR code to visit the website, or call/text to ask about current availability, delivery, rewards, veteran discounts, deals, and freezer offers.','MSCenterSmall')]
     badge=Image(str(BADGE),width=2.5*inch,height=2.5*inch)
-    return [Spacer(1,1.15*inch),Table([[badge]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.25*inch),P('Midwest Suppliers<br/>Meats & Seafood','MSBackTitle'),Spacer(1,.12*inch),P('Delivered to homes and businesses across Rapid City, the Black Hills, Deadwood, and surrounding areas.','MSBackBody'),Spacer(1,.16*inch),P(PHONE,'MSPhone'),P(URL.replace('https://',''),'MSCenterSmall'),Spacer(1,.08*inch),P(f'Instagram {IG}','MSBackBody'),Spacer(1,.18*inch),P('Scan the front QR code or call/text to ask about current availability, delivery, rewards, veteran discounts, deals, and freezer offers.','MSCenterSmall')]
+    return [Spacer(1,1.15*inch),Table([[badge]],colWidths=[7.2*inch],style=[('ALIGN',(0,0),(-1,-1),'CENTER')]),Spacer(1,.25*inch),P('Midwest Suppliers<br/>Meats & Seafood','MSBackTitle'),Spacer(1,.12*inch),P('Delivered to homes and businesses across Rapid City, Deadwood, the Black Hills, and surrounding areas.','MSBackBody'),Spacer(1,.16*inch),P(PHONE,'MSPhone'),P(URL.replace('https://',''),'MSCenterSmall'),Spacer(1,.08*inch),P(f'Instagram {IG}','MSBackBody'),Spacer(1,.18*inch),P('Scan the front QR code or call/text to ask about current availability, delivery, rewards, veteran discounts, deals, and freezer offers.','MSCenterSmall')]
 
 def build(kind, filename):
     path=OUT/filename
     doc=SimpleDocTemplate(str(path),pagesize=letter,leftMargin=.42*inch,rightMargin=.42*inch,topMargin=.42*inch,bottomMargin=.38*inch,title=filename)
-    story=front_story(kind)+[PageBreak()]+back_story()
+    story=front_story(kind)+[PageBreak()]+back_story(kind)
     doc.build(story,onFirstPage=lambda c,d: draw_border(c,d,kind),onLaterPages=lambda c,d: draw_border(c,d,kind))
     print(path)
 
