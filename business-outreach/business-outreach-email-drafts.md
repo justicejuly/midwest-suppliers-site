@@ -14,7 +14,7 @@ These are draft emails only — not sent. Personalize further if you know the ch
 ```text
 Hi Kris,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Gem Steakhouse & Saloon at Mineral Palace is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -27,7 +27,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -43,7 +43,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Robin,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Dakotah Steakhouse is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -56,7 +56,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -72,7 +72,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi 1885 Steakhouse & Saloon team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because 1885 Steakhouse & Saloon is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -85,7 +85,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -101,7 +101,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Powder House Restaurant team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Powder House Restaurant serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -114,7 +114,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -130,7 +130,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Custer State Park Resorts dining team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Custer State Park Resorts dining serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -143,7 +143,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -159,7 +159,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Deadwood Legends Steakhouse at The Franklin team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Deadwood Legends Steakhouse at The Franklin is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -172,7 +172,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -188,7 +188,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi FLYT Steakhouse by Alpine Inn team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because FLYT Steakhouse by Alpine Inn is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -201,7 +201,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -217,7 +217,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Ridgeline Roadhouse team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Ridgeline Roadhouse is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -230,7 +230,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -246,7 +246,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Latchstring Restaurant team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Latchstring Restaurant serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -259,7 +259,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -275,7 +275,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Bunky’s BBQ team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Bunky’s BBQ serves BBQ, I thought brisket, ribs, pork, chicken, and consistent case pricing could be a good fit.
 
@@ -288,7 +288,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -304,7 +304,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Delmonico Grill team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Delmonico Grill is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -317,7 +317,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -333,7 +333,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi SEAR Steakhouse team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because SEAR Steakhouse is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -346,7 +346,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -362,7 +362,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Alpine Inn team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Alpine Inn could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -375,7 +375,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -391,7 +391,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Blue Bell Lodge Dining team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Blue Bell Lodge Dining serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -404,7 +404,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -420,7 +420,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi The Lodge at Deadwood restaurants team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because The Lodge at Deadwood restaurants serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -433,7 +433,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -449,7 +449,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Deadwood Mountain Grand dining team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Deadwood Mountain Grand dining serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -462,7 +462,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -478,7 +478,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Hickok’s Tavern - Rocksino by Hard Rock Deadwood team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Hickok’s Tavern - Rocksino by Hard Rock Deadwood serves guests in a higher-volume lodging or tourism setting, I thought reliable weekly protein supply could be worth discussing.
 
@@ -491,7 +491,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -507,7 +507,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Maverick's Steaks & Cocktails team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Maverick's Steaks & Cocktails is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -520,7 +520,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -536,7 +536,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Jacobs Brewhouse & Grocer team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Jacobs Brewhouse & Grocer could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -549,7 +549,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -565,7 +565,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Killian's Tavern team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Killian's Tavern is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -578,7 +578,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -594,7 +594,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Redwater Kitchen team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Redwater Kitchen could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -607,7 +607,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -623,7 +623,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Desperados Cowboys Restaurant team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Desperados Cowboys Restaurant could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -636,7 +636,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -652,7 +652,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Chute Rooster team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Chute Rooster could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -665,7 +665,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -681,7 +681,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Circle B Ranch Chuckwagon team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Circle B Ranch Chuckwagon could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -694,7 +694,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -710,7 +710,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Gold Bison Grill team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Gold Bison Grill could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -723,7 +723,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -739,7 +739,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Tally's Silver Spoon team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Tally's Silver Spoon could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -752,7 +752,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -768,7 +768,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi The Bashful Bison Deli and Market team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought The Bashful Bison Deli and Market could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -781,7 +781,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -797,7 +797,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Minervas Restaurant and Bar team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Minervas Restaurant and Bar could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -810,7 +810,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -826,7 +826,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Old School Sliders team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Old School Sliders has a burger/tavern-style menu fit, I thought beef, chicken, pork, and seafood options could be useful for consistent ordering.
 
@@ -839,7 +839,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -855,7 +855,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Wine Cellar Restaurant team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Wine Cellar Restaurant serves BBQ, I thought brisket, ribs, pork, chicken, and consistent case pricing could be a good fit.
 
@@ -868,7 +868,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -884,7 +884,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Jambonz team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Jambonz could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -897,7 +897,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -913,7 +913,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Inferno team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Inferno could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -926,7 +926,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -942,7 +942,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Antunez team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Antunez could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -955,7 +955,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -971,7 +971,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Nonna's Kitchen team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Nonna's Kitchen could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -984,7 +984,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -1000,7 +1000,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi The Dough Trader team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought The Dough Trader could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -1013,7 +1013,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -1029,7 +1029,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi The Custer Wolf team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought The Custer Wolf could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -1042,7 +1042,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -1058,7 +1058,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Buglin’ Bull team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Buglin’ Bull could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -1071,7 +1071,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -1087,7 +1087,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Boulder Canyon Golf Club - Canyon Grille team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 Because Boulder Canyon Golf Club - Canyon Grille is steak-focused, I thought consistent beef cuts, case pricing, and dependable local delivery could be worth a quick conversation.
 
@@ -1100,7 +1100,7 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
 
@@ -1116,7 +1116,7 @@ Midwest Suppliers Meats & Seafood
 ```text
 Hi Stampmill Inn Restaurant Saloon & Victorian Suites team,
 
-My name is Kyle with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
+My name is Chuck with Midwest Suppliers Meats & Seafood. We serve Rapid City, the Black Hills, Deadwood, and surrounding areas with meats and seafood for homes and businesses.
 
 I thought Stampmill Inn Restaurant Saloon & Victorian Suites could be a good fit for local meat and seafood delivery, case pricing, and dependable ordering.
 
@@ -1129,6 +1129,6 @@ Email: midwestsuppliersmeat@gmail.com
 Website: https://justicejuly.github.io/midwest-suppliers-site/
 
 Thank you,
-Kyle
+Chuck
 Midwest Suppliers Meats & Seafood
 ```
