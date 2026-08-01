@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 612 792">
+<title>Midwest Suppliers Door-to-Door Favorite Brochure - Back - Editable</title>
+<rect x="0" y="0" width="612" height="792" fill="#fffdf8"/>
+<rect x="16" y="16" width="580" height="760" fill="none" stroke="#d8d0c5" stroke-width="1"/>
+<g id="centered-restaurant-menu-back">
+  <image x="196" y="120" width="220" height="220" href="assets/logo.jpg" preserveAspectRatio="xMidYMid meet"/>
+  <text x="306" y="386" font-family="Arial" font-size="31" fill="#17110d" font-weight="bold" text-anchor="middle">MIDWEST SUPPLIERS</text>
+<text x="306" y="420" font-family="Arial" font-size="31" fill="#17110d" font-weight="bold" text-anchor="middle">MEATS &amp; SEAFOOD</text>
+  <text x="306" y="444" font-family="Arial" font-size="13" fill="#5d5147" font-weight="bold" text-anchor="middle">Meats · Seafood · Freezer cases · Home &amp; business delivery</text>
+  <text x="306" y="507" font-family="Arial" font-size="32" fill="#b5122a" font-weight="bold" text-anchor="middle">605-675-9429</text>
+  <image x="266" y="540" width="80" height="80" href="assets/website-qr.png" preserveAspectRatio="xMidYMid meet"/>
+  <text x="306" y="637" font-family="Arial" font-size="10" fill="#17110d" font-weight="bold" text-anchor="middle">midwestsuppliersmeat.com</text>
+  <text x="306" y="670" font-family="Arial" font-size="8" fill="#5d5147" font-weight="normal" text-anchor="middle">Serving Rapid City, Deadwood, the Black Hills, and surrounding areas.</text>
+<text x="306" y="680" font-family="Arial" font-size="8" fill="#5d5147" font-weight="normal" text-anchor="middle">Scan the QR code to visit the website, or call/text to ask about current</text>
+<text x="306" y="690" font-family="Arial" font-size="8" fill="#5d5147" font-weight="normal" text-anchor="middle">availability, delivery, rewards, veteran discounts, deals, and freezer offers.</text>
+</g>
+</svg>
