@@ -24,6 +24,7 @@
     <nav aria-label="Primary navigation">
       <a href="#menu">Menu</a>
       <a href="#guarantee">Guarantee</a>
+      <a href="https://www.instagram.com/midwestsuppliersmeat/" target="_blank" rel="noopener">Instagram</a>
       <a href="#contact">Call 605-675-9429</a>
     </nav>
   </header>
@@ -139,18 +140,47 @@
         <a class="phone-link" href="tel:16056759429">605-675-9429</a>
       </div>
       <form id="order-form" class="order-form" action="https://formsubmit.co/midwestsuppliersmeat@gmail.com" method="POST">
-        <h3>Quick order note</h3>
-        <input type="hidden" name="_subject" value="New Midwest Suppliers quick order note">
+        <h3>Order now</h3>
+        <input type="hidden" name="_subject" value="New Midwest Suppliers order request">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://justicejuly.github.io/midwest-suppliers-site/thank-you.html">
         <input type="hidden" name="_autoresponse" value="Thank you for contacting Midwest Suppliers Meats & Seafood. We got your message and will be in contact with you as soon as possible. For faster help, call or text 605-675-9429.">
         <label>Name<input name="name" autocomplete="name" required></label>
         <label>Email for automatic reply<input type="email" name="email" autocomplete="email" required></label>
-        <label>Phone number<input name="phone" autocomplete="tel" placeholder="Best number to call or text"></label>
-        <label>What do you want?<textarea name="message" placeholder="Example: Big Beef Case, Preferred Customer Combo, seafood case, restaurant weekly order..." required></textarea></label>
-        <button class="btn primary full" type="submit">Send request to Midwest Suppliers</button>
-        <p class="form-note">This sends your note to midwestsuppliersmeat@gmail.com and emails you a confirmation.</p>
+        <label>Phone number<input name="phone" autocomplete="tel" placeholder="Best number to call or text" required></label>
+        <label>Customer type
+          <select name="customer_type" required>
+            <option value="">Choose one</option>
+            <option>Home customer</option>
+            <option>Restaurant / business</option>
+            <option>Returning customer</option>
+            <option>Just asking a question</option>
+          </select>
+        </label>
+        <label>Interested in
+          <select name="product_interest" required>
+            <option value="">Choose one</option>
+            <option>Big Beef Case</option>
+            <option>Pork Case</option>
+            <option>Seafood Case</option>
+            <option>Chicken Case</option>
+            <option>Preferred Customer Combo</option>
+            <option>Freezer bundle / chest freezer offer</option>
+            <option>Restaurant or business order</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Delivery city or area<input name="delivery_area" autocomplete="address-level2" placeholder="Rapid City, Deadwood, Black Hills area..."></label>
+        <label>Preferred contact method
+          <select name="preferred_contact">
+            <option>Call</option>
+            <option>Text</option>
+            <option>Email</option>
+          </select>
+        </label>
+        <label>Anything else we should know?<textarea name="message" placeholder="Example: best delivery day/time, veteran discount, current deals, freezer offer, restaurant weekly order, special products..." required></textarea></label>
+        <button class="btn primary full" type="submit">Send order request</button>
         <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
       </form>
     </section>
@@ -158,7 +188,7 @@
 
   <footer>
     <img src="assets/knife-logo.jpg" alt="Midwest Suppliers logo" />
-    <div><strong>Midwest Suppliers Meats & Seafood</strong><span>Serving Rapid City and the Black Hills · Delivery to homes and businesses</span></div>
+    <div><strong>Midwest Suppliers Meats & Seafood</strong><span>Serving Rapid City and the Black Hills · Delivery to homes and businesses</span><a class="footer-social" href="https://www.instagram.com/midwestsuppliersmeat/" target="_blank" rel="noopener">Instagram @midwestsuppliersmeat</a></div>
   </footer>
 
   <script src="app.js?v=4"></script>
