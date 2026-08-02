@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Business Interest Questionnaire | Midwest Suppliers Meats & Seafood</title>
+  <meta name="description" content="Quick business interest questionnaire for restaurants, lodges, bars, and local kitchens interested in Midwest Suppliers Meats & Seafood delivery." />
+  <meta property="og:title" content="Midwest Suppliers Business Interest Questionnaire" />
+  <meta property="og:description" content="Tell us what meats, seafood, and delivery needs your business has so Midwest Suppliers can follow up." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4" />
+  <style>
+    body{background:var(--cream)}
+    .questionnaire-hero{min-height:auto;display:grid;grid-template-columns:minmax(0,1fr) 500px;gap:34px;align-items:start;padding:56px max(clamp(18px,5vw,60px),calc((100vw - var(--max))/2));background:radial-gradient(circle at 15% 18%,rgba(244,189,61,.22),transparent 30%),linear-gradient(135deg,var(--black),var(--red-dark));color:#fff}
+    .questionnaire-hero h1{font-size:clamp(48px,7vw,82px)}
+    .questionnaire-hero .lead{font-size:clamp(17px,2vw,21px)}
+    .business-form{background:#fff;color:var(--ink);border-radius:24px;padding:22px;box-shadow:var(--shadow)}
+    .business-form h2{font-size:38px;color:var(--red);margin-bottom:6px}
+    .business-form p{color:var(--muted);margin:0 0 10px}
+    .business-form label{display:block;margin-top:12px;font-weight:900}
+    .business-form input,.business-form select,.business-form textarea{width:100%;margin-top:6px;border:1px solid var(--line);border-radius:13px;padding:13px 14px;background:#fffaf0;color:var(--ink);font:inherit}
+    .business-form textarea{min-height:100px;resize:vertical}
+    .check-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+    .check-grid label{margin:0;display:flex;align-items:center;gap:8px;padding:10px 11px;border:1px solid var(--line);border-radius:12px;background:#fffaf0;font-weight:800;color:var(--muted)}
+    .check-grid input{width:auto;margin:0}.share-card{margin-top:24px;background:rgba(255,255,255,.08);border:1px solid rgba(244,189,61,.45);border-radius:22px;padding:18px;color:rgba(255,246,231,.9)}.share-card strong{color:var(--gold);display:block;margin-bottom:6px}.share-card code{display:block;white-space:normal;background:rgba(0,0,0,.25);padding:10px;border-radius:12px;color:#fff;margin-top:8px}
+    .privacy-note{font-size:12px;color:var(--muted)!important;margin-top:12px!important}
+    @media (max-width:900px){.questionnaire-hero{grid-template-columns:1fr}.check-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html#top" aria-label="Midwest Suppliers home">
+      <img src="assets/knife-logo.jpg" alt="Midwest Suppliers Meats & Seafood knife logo" />
+      <span><strong>Midwest Suppliers</strong><small>Meats & Seafood</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html#menu">Menu</a>
+      <a href="index.html#contact">Order</a>
+      <a href="tel:16056759429">Call 605-675-9429</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="questionnaire-hero">
+      <div>
+        <p class="eyebrow">Restaurant & business delivery</p>
+        <h1>Tell us what your kitchen needs.</h1>
+        <p class="lead">If Midwest Suppliers called your business, this quick form helps us understand what meats, seafood, delivery schedule, and follow-up method would be useful.</p>
+        <div class="quick-facts" style="display:grid;grid-template-columns:1fr;gap:12px;padding:0;margin:28px 0 0;max-width:560px">
+          <div><strong>For local businesses</strong><span>Restaurants, bars, lodges, casinos, offices, and recurring orders.</span></div>
+          <div><strong>Products to ask about</strong><span>Beef, pork, chicken, seafood, freezer-ready cases, and larger business orders.</span></div>
+          <div><strong>Simple follow-up</strong><span>Tell us what you buy most and we’ll call, text, or email with the next step.</span></div>
+        </div>
+        <div class="share-card">
+          <strong>Cold-call text link</strong>
+          Send this to businesses after a voicemail or quick phone conversation:
+          <code>https://justicejuly.github.io/midwest-suppliers-site/business.html</code>
+        </div>
+      </div>
+
+      <form class="business-form" action="https://formsubmit.co/midwestsuppliersmeat@gmail.com" method="POST">
+        <h2>Business questionnaire</h2>
+        <p>This takes about 2 minutes. Midwest Suppliers will follow up with current availability, pricing, and delivery options.</p>
+        <input type="hidden" name="_subject" value="New Midwest Suppliers business questionnaire">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://justicejuly.github.io/midwest-suppliers-site/thank-you.html">
+        <input type="hidden" name="_autoresponse" value="Thank you for filling out the Midwest Suppliers business questionnaire. We received your information and will follow up about current meat, seafood, pricing, and delivery options. For faster help, call or text 605-675-9429.">
+
+        <label>Business name<input name="business_name" autocomplete="organization" required></label>
+        <label>Your name<input name="contact_name" autocomplete="name" required></label>
+        <label>Role or title<input name="role_title" placeholder="Owner, chef, manager, buyer..."></label>
+        <label>Best phone<input name="phone" autocomplete="tel" required></label>
+        <label>Best email<input type="email" name="email" autocomplete="email" required></label>
+        <label>Business city / area<input name="business_area" placeholder="Rapid City, Spearfish, Deadwood..."></label>
+
+        <label>What type of business is this?
+          <select name="business_type" required>
+            <option value="">Choose one</option>
+            <option>Restaurant</option>
+            <option>Bar / tavern</option>
+            <option>Lodge / hotel / resort</option>
+            <option>Casino / entertainment venue</option>
+            <option>Office / workplace</option>
+            <option>Catering / events</option>
+            <option>Other business</option>
+          </select>
+        </label>
+
+        <label>What products are you interested in?</label>
+        <div class="check-grid" aria-label="Product interests">
+          <label><input type="checkbox" name="product_interest" value="Beef"> Beef</label>
+          <label><input type="checkbox" name="product_interest" value="Pork"> Pork</label>
+          <label><input type="checkbox" name="product_interest" value="Chicken"> Chicken</label>
+          <label><input type="checkbox" name="product_interest" value="Seafood"> Seafood</label>
+          <label><input type="checkbox" name="product_interest" value="Freezer cases"> Freezer cases</label>
+          <label><input type="checkbox" name="product_interest" value="Recurring orders"> Recurring orders</label>
+        </div>
+
+        <label>How often might you need delivery?
+          <select name="delivery_frequency">
+            <option>Not sure yet</option>
+            <option>Weekly</option>
+            <option>Every other week</option>
+            <option>Monthly</option>
+            <option>Seasonal / busy season</option>
+            <option>One-time quote</option>
+          </select>
+        </label>
+
+        <label>Preferred follow-up method
+          <select name="preferred_follow_up">
+            <option>Call</option>
+            <option>Text</option>
+            <option>Email</option>
+          </select>
+        </label>
+
+        <label>Best time to reach you<input name="best_time" placeholder="Example: weekday mornings, after 2pm..."></label>
+        <label>Anything specific you buy often or want quoted?<textarea name="notes" placeholder="Example: ribeye, burger patties, chicken breasts, shrimp, weekly volume, current supplier issues, delivery days..."></textarea></label>
+        <button class="btn primary full" type="submit">Send business questionnaire</button>
+        <p class="privacy-note">This form sends your response to Midwest Suppliers Meats & Seafood so we can follow up. Selections, prices, and availability may vary.</p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
